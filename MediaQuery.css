@@ -1,0 +1,149 @@
+/* Apply styles for screens up to 640px wide */
+@media (max-width: 640px) {
+    /* Reduce the padding on the logo and navigation items */
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 1rem;
+    }
+    .forder {
+        display: none;
+    }
+    .flogo img {
+      padding: 1rem 1rem 0 0;
+      height: 5rem;
+    }
+    
+    .Bars{
+        display: block;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+  
+    .frontpage h1 {
+      font-size: 3rem;
+      padding:8rem 4rem 8rem 2rem;
+    }
+  
+    .Fbutton {
+        padding: 2rem 0 15rem 5rem;
+        justify-content: initial;
+    }
+    .frontpage button{    
+        padding: initial;
+        padding: 20px 45px 20px 45px;
+        font-size: large;
+          
+    }
+  
+
+    /* About Us Page Start  */
+
+    
+    .Second{
+        display: flex;
+        flex-direction: column;
+        margin-top: initial;
+        padding: 2rem 1rem 0.5rem 2rem;
+    }
+    .SecondAbout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: initial;
+    }
+    .Second h2{
+        padding: initial;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    .Second-Button button {
+        display: block;
+        padding: 0.8rem 3rem;
+        background-color: #0D89CA;
+        color: #ffff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .Secondimage {
+      height: 25%;
+      padding: initial;
+      padding: 1rem;
+    }
+   /* Second Page Is End Here  */
+
+   /* Offering Start from Here */
+   
+   .thirdtitle h2{
+    font-weight: 400;
+    font-size: initial;
+    font-size: 2rem;
+    }
+
+    .thirdtitle h4{
+        padding: initial;
+        padding: 2rem 0 2rem;
+    }
+
+    .Thirdoffering {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:initial;
+        gap:5rem;
+        padding : initial;
+    }
+
+    .Offeringz {     
+        width: initial;
+        width: 40%;        
+    }
+
+    /* Third-page End Here */
+
+    /* Partner TAB Start from here */
+
+    .Part-header h2 {
+        font-size: initial;
+        font-size: 2rem;
+    }
+    .Partner p {
+        padding: initial;
+        padding: 1rem;
+        text-justify: inter-word;
+    }
+
+    .P-image img{   
+        width: initial; 
+        width: 90%;
+    }
+
+    /* Parter Page End here */
+
+    /* Testinomial Page Start Here */
+
+    .Test-header h2 {
+        font-size: initial;
+        font-size: 2rem;
+    }
+    
+    .Card1, .Card3 {
+        display: none;
+    }
+    .Card2{
+        width: initial;
+        width: 60%;
+    }
+    .Blog1{
+        width: initial;
+        width: 65%;
+    }
+    .Blog2{
+        display: none;
+    }
+    .Social{
+        display: none;
+    }
+}

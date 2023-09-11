@@ -1,0 +1,426 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Jost', sans-serif;
+} 
+ /* FRONT PAGE Start from Here*/
+
+.frontpage{
+    background-image: url(Images/Main.png);    
+    background-color: #058ACC;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Navigation Bar Start */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flogo img{
+    padding: 5rem 3rem 0 3rem;;
+    height: 10rem;
+    position: relative;
+}
+.Bars{
+    display: none;
+}
+.forder {
+    display: flex;
+    padding-top: 5rem;
+    gap:2rem;
+}
+
+.forder a{   
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+/* Navigation Bar End */
+
+/* Front Heading and button Start */
+
+.frontpage h1{
+    color: #ffff;
+    font-size: 5rem;
+    padding: 15rem 25rem 20rem 5rem;
+}
+
+.Fbutton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+.frontpage button{    
+    color: #ffff;
+    background-color: #CEA93A;
+    padding: 20px 75px 20px 75px;
+    font-size: large;
+    border: 0px;    
+}
+
+/* Front Heading and button End */
+
+ /* 2nd Page start here*/
+
+.Second{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.SecondAbout{
+    width: 40%;
+
+}
+.Second h2{
+    padding: 2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.Second p{
+    padding: 2rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.Second-Button button{
+    display: none;
+}
+.Secondimage{
+    object-fit: cover;
+    height: 30rem;
+    padding: 2rem;
+}
+/* 2nd Page start end*/
+
+/* 3rd Page start */
+
+.ThirdPage{
+    display: flex;
+    flex-direction: column;
+}
+.thirdtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+.thirdtitle h2{
+    font-weight: 400;
+    font-size: 3rem;
+}
+.thirdtitle h4{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 3rem 0 3rem;
+}
+.Thirdoffering {
+    display: flex;
+    gap: 1rem;
+    padding: 0 1rem 0 1rem;
+}
+.Offeringz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 25%;
+    gap: 0.5rem;
+    padding: 1rem;   
+}
+.Offeringz img{
+    width: 6rem;
+    aspect-ratio: 1/1;
+}
+.Offeringz p{
+    font-size: 0.875rem;
+}
+.Oracle{
+    border-top: 1rem solid #EB7B37;
+}
+.Cloud{
+    border-top: 1rem solid #FAD606;
+}
+.BPM{
+    border-top: 1rem solid #C6A136;
+}
+.ERP{
+    border-top: 1rem solid #A2B8C1;
+}
+
+.Viewbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.Viewbutton button{
+    padding: 0.8rem 3rem;
+    background-color: #0D89CA;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+/* Partner Page.. */
+.Partner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Part-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+.Part-header h2{   
+    font-weight: 400;
+    font-size: 3rem;
+}
+.P-image{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.P-image img{    
+    width: 80%;
+}
+.Partner p{
+    padding: 2rem 1rem 2rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+/* Testinomial Page */
+.Testimonals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.Test-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.Test-header h2{   
+    font-weight: 400;
+    font-size: 3rem
+}
+
+.Test-header p{   
+    font-weight: 300;
+    font-size: 1rem
+}
+
+.ShowCard{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+.Card1,.Card2,.Card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: space-between;  
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 30%;
+}
+
+.Quote {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem 1rem 0 0; 
+}
+#Card-Para{
+    padding: 1rem 1rem 4rem 1rem;
+}
+.Carddesign{
+    display: flex; 
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;    
+    width: 100%;
+    background-color: #A2B8C1;
+    padding: 2rem;
+}
+.Carddesign img{
+    margin-top: -4.8rem;
+    padding-bottom: 1rem;
+}
+.Test button{
+    padding: 0.8rem 3rem;
+    background-color: #0D89CA;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Blog Page  */
+
+.blogging{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.Bheader h2{
+    font-weight: 400;
+    font-size: 3rem
+}
+.Blog-Container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Blog1, .Blog2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 0.5rem solid #EB7B37;
+}
+.blog img{
+    width: 6rem;
+    aspect-ratio: 1/1;
+}
+
+.blogging button{
+    color: #081A2B;
+    background: #FFFFFF;
+    border: 1px solid #0D89CA;
+    padding: 12px 64px;
+}
+
+.blogdate{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 3rem;
+    color: #C6A136;
+}
+p{
+    justify-content: center;
+    color: #000000;
+}
+
+/* Contact US */
+.ContactUs{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContactUs h2{
+    font-weight: 400;
+    font-size: 3rem;
+}
+.ContactUs h4{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.Container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    gap:3rem;    
+}
+
+.Container h3{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+    font-weight: 600;
+    font-size: 1.25rem
+}
+input::placeholder{
+    font-size: 0.8rem;
+}
+.Container form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 1rem;
+}
+form input{
+    padding: 0.5rem;
+    background-color:#;
+} 
+
+.Container input textarea{
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+}
+.Con-Button button{
+    background: #0D89CA !important;
+    padding: 0.7rem 1.5rem !important;
+    color: #fff !important;
+}
+.Social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+}
+.LME{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.FirstLoc, .Mobile,.Email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.LME div img {
+    width: 1.2rem;
+    ;
+}
+.LME div p {
+    font-size: 0.9rem;;
+}
+.Link{
+    align-self: start;
+}
+.Link img{
+    width: 5rem;
+}
+footer{
+    margin-top: 5rem
+}
+.Copy-Right{
+    background-color: rgba(0, 28, 39, 0.75);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
